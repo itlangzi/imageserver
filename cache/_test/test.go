@@ -5,10 +5,10 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/itlangzi/imageserver"
+	imageserver_cache "github.com/itlangzi/imageserver/cache"
+	"github.com/itlangzi/imageserver/testdata"
 	"github.com/pierrre/compare"
-	"github.com/pierrre/imageserver"
-	imageserver_cache "github.com/pierrre/imageserver/cache"
-	"github.com/pierrre/imageserver/testdata"
 )
 
 const (

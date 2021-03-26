@@ -7,9 +7,9 @@ import (
 	"image/gif"
 	"testing"
 
+	"github.com/itlangzi/imageserver"
+	imageserver_image "github.com/itlangzi/imageserver/image"
 	"github.com/pierrre/compare"
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
 )
 
 var _ Processor = &SimpleProcessor{}

@@ -6,7 +6,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/pierrre/imageserver"
+	"github.com/itlangzi/imageserver"
 )
 
 // Server is a imageserver.Server implementation that supports a Cache.

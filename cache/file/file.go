@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/pierrre/imageserver"
+	"github.com/itlangzi/imageserver"
 )
 
 // Cache is a implementation of disk based cache system.

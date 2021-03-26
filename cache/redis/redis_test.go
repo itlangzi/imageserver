@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"github.com/go-redis/redis"
-	"github.com/pierrre/imageserver"
-	imageserver_cache "github.com/pierrre/imageserver/cache"
-	cachetest "github.com/pierrre/imageserver/cache/_test"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/itlangzi/imageserver"
+	imageserver_cache "github.com/itlangzi/imageserver/cache"
+	cachetest "github.com/itlangzi/imageserver/cache/_test"
+	"github.com/itlangzi/imageserver/testdata"
 )
 
 var _ imageserver_cache.Cache = &Cache{}

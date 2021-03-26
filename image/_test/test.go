@@ -6,8 +6,8 @@ import (
 	"image"
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
+	"github.com/itlangzi/imageserver"
+	imageserver_image "github.com/itlangzi/imageserver/image"
 )
 
 // TestEncoder is a helper to test imageserver/image.Encoder.

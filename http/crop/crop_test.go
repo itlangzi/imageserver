@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/itlangzi/imageserver"
+	imageserver_http "github.com/itlangzi/imageserver/http"
 	"github.com/pierrre/compare"
-	"github.com/pierrre/imageserver"
-	imageserver_http "github.com/pierrre/imageserver/http"
 )
 
 var _ imageserver_http.Parser = &Parser{}

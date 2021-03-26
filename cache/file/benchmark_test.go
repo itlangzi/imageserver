@@ -3,9 +3,9 @@ package file
 import (
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	cachetest "github.com/pierrre/imageserver/cache/_test"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/itlangzi/imageserver"
+	cachetest "github.com/itlangzi/imageserver/cache/_test"
+	"github.com/itlangzi/imageserver/testdata"
 )
 
 func BenchmarkGet(b *testing.B) {

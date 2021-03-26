@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	imageserver_http "github.com/pierrre/imageserver/http"
+	"github.com/itlangzi/imageserver"
+	imageserver_http "github.com/itlangzi/imageserver/http"
 )
 
 var _ imageserver_http.Parser = &CorrectionParser{}

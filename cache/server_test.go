@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/itlangzi/imageserver"
+	. "github.com/itlangzi/imageserver/cache"
+	cachetest "github.com/itlangzi/imageserver/cache/_test"
+	"github.com/itlangzi/imageserver/testdata"
 	"github.com/pierrre/compare"
-	"github.com/pierrre/imageserver"
-	. "github.com/pierrre/imageserver/cache"
-	cachetest "github.com/pierrre/imageserver/cache/_test"
-	"github.com/pierrre/imageserver/testdata"
 )
 
 var _ imageserver.Server = &Server{}

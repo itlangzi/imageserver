@@ -1,9 +1,9 @@
 # Image Server
 An image server toolkit in Go (Golang)
 
-[![GoDoc](https://godoc.org/github.com/pierrre/imageserver?status.svg)](https://godoc.org/github.com/pierrre/imageserver)
+[![GoDoc](https://godoc.org/github.com/itlangzi/imageserver?status.svg)](https://godoc.org/github.com/itlangzi/imageserver)
 [![Build Status](https://travis-ci.org/pierrre/imageserver.svg?branch=master)](https://travis-ci.org/pierrre/imageserver)
-[![Go Report Card](https://goreportcard.com/badge/github.com/pierrre/imageserver)](https://goreportcard.com/report/github.com/pierrre/imageserver)
+[![Go Report Card](https://goreportcard.com/badge/github.com/itlangzi/imageserver)](https://goreportcard.com/report/github.com/itlangzi/imageserver)
 
 ## Features
 - HTTP server
@@ -16,12 +16,12 @@ An image server toolkit in Go (Golang)
 - Fully modular
 
 ## Examples
-- [Simple](https://github.com/pierrre/imageserver/blob/master/examples/simple/simple.go)
-- [Advanced](https://github.com/pierrre/imageserver/blob/master/examples/advanced/advanced.go)
-- [Cache](https://github.com/pierrre/imageserver/blob/master/examples/cache/cache.go)
-- [Groupcache](https://github.com/pierrre/imageserver/blob/master/examples/groupcache/groupcache.go)
-- [HTTP Source](https://github.com/pierrre/imageserver/blob/master/examples/httpsource/httpsource.go)
-- [Mandelbrot](https://github.com/pierrre/mandelbrot/blob/master/examples/httpserver/httpserver.go) ([see interactive demo](https://mandelbrot.pierredurand.fr)) <img src="https://mandelbrot.pierredurand.fr/i?x=0&y=0&z=0" width="32" height="32" />
+- [Simple](https://github.com/itlangzi/imageserver/blob/master/examples/simple/simple.go)
+- [Advanced](https://github.com/itlangzi/imageserver/blob/master/examples/advanced/advanced.go)
+- [Cache](https://github.com/itlangzi/imageserver/blob/master/examples/cache/cache.go)
+- [Groupcache](https://github.com/itlangzi/imageserver/blob/master/examples/groupcache/groupcache.go)
+- [HTTP Source](https://github.com/itlangzi/imageserver/blob/master/examples/httpsource/httpsource.go)
+- [Mandelbrot](https://github.com/itlangzi/mandelbrot/blob/master/examples/httpserver/httpserver.go) ([see interactive demo](https://mandelbrot.pierredurand.fr)) <img src="https://mandelbrot.pierredurand.fr/i?x=0&y=0&z=0" width="32" height="32" />
 
 ## Demos
 These demos use the "advanced" example.

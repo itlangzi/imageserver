@@ -4,9 +4,9 @@ import (
 	"image"
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/itlangzi/imageserver"
+	imageserver_image "github.com/itlangzi/imageserver/image"
+	"github.com/itlangzi/imageserver/testdata"
 )
 
 func BenchmarkProcessor(b *testing.B) {

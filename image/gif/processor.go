@@ -4,9 +4,9 @@ import (
 	"image"
 	"image/gif"
 
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
-	imageserver_image_internal "github.com/pierrre/imageserver/image/internal"
+	"github.com/itlangzi/imageserver"
+	imageserver_image "github.com/itlangzi/imageserver/image"
+	imageserver_image_internal "github.com/itlangzi/imageserver/image/internal"
 )
 
 // Processor processes a GIF image.

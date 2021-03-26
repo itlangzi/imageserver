@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/pierrre/imageserver"
-	imageserver_source "github.com/pierrre/imageserver/source"
+	"github.com/itlangzi/imageserver"
+	imageserver_source "github.com/itlangzi/imageserver/source"
 )
 
 // Server is a imageserver.Server implementation that get the Image from a file.

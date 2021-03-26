@@ -4,8 +4,8 @@ package gamma
 import (
 	"net/http"
 
-	"github.com/pierrre/imageserver"
-	imageserver_http "github.com/pierrre/imageserver/http"
+	"github.com/itlangzi/imageserver"
+	imageserver_http "github.com/itlangzi/imageserver/http"
 )
 
 // CorrectionParser is a imageserver/http.Parser implementation for imageserver/image/gamma.CorrectionProcessor.

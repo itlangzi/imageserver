@@ -5,8 +5,8 @@ import (
 	"image"
 
 	"github.com/disintegration/gift"
-	"github.com/pierrre/imageserver"
-	imageserver_image_internal "github.com/pierrre/imageserver/image/internal"
+	"github.com/itlangzi/imageserver"
+	imageserver_image_internal "github.com/itlangzi/imageserver/image/internal"
 )
 
 const (

@@ -4,10 +4,10 @@ import (
 	"image/color"
 	"testing"
 
+	"github.com/itlangzi/imageserver"
+	imageserver_image "github.com/itlangzi/imageserver/image"
+	imageserver_testdata "github.com/itlangzi/imageserver/testdata"
 	"github.com/pierrre/compare"
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
-	imageserver_testdata "github.com/pierrre/imageserver/testdata"
 )
 
 var _ imageserver_image.Processor = &RotateProcessor{}

@@ -1,18 +1,18 @@
 // Package httpsource provides a HTTP Source example.
 //
 // Try http://localhost:8080/large.jpg
-// or any image available in https://github.com/pierrre/imageserver/tree/master/testdata
+// or any image available in https://github.com/itlangzi/imageserver/tree/master/testdata
 package main
 
 import (
 	"flag"
 	"net/http"
 
-	imageserver_http "github.com/pierrre/imageserver/http"
-	_ "github.com/pierrre/imageserver/image/gif"
-	_ "github.com/pierrre/imageserver/image/jpeg"
-	_ "github.com/pierrre/imageserver/image/png"
-	imageserver_source_http "github.com/pierrre/imageserver/source/http"
+	imageserver_http "github.com/itlangzi/imageserver/http"
+	_ "github.com/itlangzi/imageserver/image/gif"
+	_ "github.com/itlangzi/imageserver/image/jpeg"
+	_ "github.com/itlangzi/imageserver/image/png"
+	imageserver_source_http "github.com/itlangzi/imageserver/source/http"
 )
 
 const (

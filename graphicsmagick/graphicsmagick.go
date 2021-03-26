@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/pierrre/imageserver"
+	"github.com/itlangzi/imageserver"
 )
 
 const (
