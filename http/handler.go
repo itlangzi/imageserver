@@ -119,8 +119,8 @@ func (handler *Handler) sendImage(rw http.ResponseWriter, req *http.Request, ima
 
 func (handler *Handler) sendFile(rw http.ResponseWriter, req *http.Request, file *imageserver.Image, etag string) {
 	handler.setImageHeaderCommon(rw, etag)
-	if file.Format != "" {
-		rw.Header().Set("Content-Type", "image/"+file.Format)
+	if file.ContentType != "" {
+		rw.Header().Set("Content-Type", file.ContentType)
 	}
 	rw.Header().Set("Content-Length", strconv.Itoa(len(file.Data)))
 	if req.Method == "GET" {

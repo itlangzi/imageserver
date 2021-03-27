@@ -32,6 +32,9 @@ type Image struct {
 
 	// Data contains the raw data of the encoded image.
 	Data []byte
+
+	// file origin content-type e.g. image/gif, application/octa-stream
+	ContentType string
 }
 
 // MarshalBinary implements encoding.BinaryMarshaler.
