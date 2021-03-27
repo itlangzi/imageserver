@@ -78,7 +78,11 @@ func (handler *Handler) serveHTTP(rw http.ResponseWriter, req *http.Request) err
 	if err != nil {
 		return err
 	}
-	handler.sendImage(rw, req, image, etag)
+	if image.Format == "file" || image.Format == "" {
+		handler.sendFile(rw, req, image, etag)
+	} else {
+		handler.sendImage(rw, req, image, etag)
+	}
 	return nil
 }
 
@@ -110,6 +114,17 @@ func (handler *Handler) sendImage(rw http.ResponseWriter, req *http.Request, ima
 	rw.Header().Set("Content-Length", strconv.Itoa(len(image.Data)))
 	if req.Method == "GET" {
 		_, _ = rw.Write(image.Data)
+	}
+}
+
+func (handler *Handler) sendFile(rw http.ResponseWriter, req *http.Request, file *imageserver.Image, etag string) {
+	handler.setImageHeaderCommon(rw, etag)
+	if file.Format != "" {
+		rw.Header().Set("Content-Type", "image/"+file.Format)
+	}
+	rw.Header().Set("Content-Length", strconv.Itoa(len(file.Data)))
+	if req.Method == "GET" {
+		_, _ = rw.Write(file.Data)
 	}
 }
 
